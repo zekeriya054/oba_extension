@@ -14,8 +14,8 @@
         {
             "matches": [
                 
-                "https://oba.gov.tr/*",
-                "<all_urls>"
+                "https://*.oba.gov.tr/*"
+      
             ],
             "js": ["content-script.js"]
         }
