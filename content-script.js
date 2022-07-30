@@ -29,7 +29,8 @@ console.log(document.getElementById(icon).className);
 setInterval(() => {
 
   if(document.getElementsByClassName('vjs-remaining-time-display')[0].innerHTML=='-0:01') {
-      document.getElementById(sonrakiLink).click();
+     setTimeout(()=>{document.getElementById(sonrakiLink).click();}, 3000)
+      
   //  console.log(document.getElementsByClassName('vjs-remaining-time-display')[0].innerHTML);
 
   }
